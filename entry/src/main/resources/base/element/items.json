@@ -1,0 +1,56 @@
+{
+  "strarray": [
+    {
+      "name": "boot1",
+      "value": [
+        {
+          "value": "small",
+          "img": "img1",
+          "specs": [
+            "spec1",
+            "spec2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "boot2",
+      "value": [
+        {
+          "value": "small",
+          "img": "img1",
+          "specs": [
+            "spec1",
+            "spec2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mobile1",
+      "value": [
+        {
+          "value": "small",
+          "img": "img1",
+          "specs": [
+            "spec1",
+            "spec2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mobile2",
+      "value": [
+        {
+          "value": "small",
+          "img": "img1",
+          "specs": [
+            "spec1",
+            "spec2"
+          ]
+        }
+      ]
+    }
+  ]
+}
