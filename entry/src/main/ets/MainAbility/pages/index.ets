@@ -84,7 +84,7 @@ struct Index {
           Column() {
             Image($r("app.media.phone1")).objectFit(ImageFit.Cover).width(130).height(130);
             Text("Premium Smartphone").fontWeight(FontWeight.Bolder).fontSize(12);
-            Text("₹ 4000").fontWeight(FontWeight.Bolder).fontSize(15);
+            Text("₹ 25000").fontWeight(FontWeight.Bolder).fontSize(15);
           }
           .alignItems(HorizontalAlign.Start)
           .borderWidth(2)
@@ -95,8 +95,32 @@ struct Index {
         GridItem() {
           Column() {
             Image($r("app.media.phone2")).objectFit(ImageFit.Cover).width(130).height(130);
-            Text("Ultra slim smarthone").fontWeight(FontWeight.Bolder).fontSize(12);
-            Text("₹ 4000").fontWeight(FontWeight.Bolder).fontSize(15);
+            Text("Ultra slim smartphone").fontWeight(FontWeight.Bolder).fontSize(12);
+            Text("₹ 20000").fontWeight(FontWeight.Bolder).fontSize(15);
+          }
+          .alignItems(HorizontalAlign.Start)
+          .borderWidth(2)
+          .borderRadius(10)
+          .width(140);
+        }
+
+        GridItem() {
+          Column() {
+            Image($r("app.media.laptop1")).objectFit(ImageFit.Cover).width(130).height(130);
+            Text("Premium laptop").fontWeight(FontWeight.Bolder).fontSize(12);
+            Text("₹ 60000").fontWeight(FontWeight.Bolder).fontSize(15);
+          }
+          .alignItems(HorizontalAlign.Start)
+          .borderWidth(2)
+          .borderRadius(10)
+          .width(140);
+        }
+
+        GridItem() {
+          Column() {
+            Image($r("app.media.laptop2")).objectFit(ImageFit.Cover).width(130).height(130);
+            Text("Ultra slim laptop").fontWeight(FontWeight.Bolder).fontSize(12);
+            Text("₹ 50000").fontWeight(FontWeight.Bolder).fontSize(15);
           }
           .alignItems(HorizontalAlign.Start)
           .borderWidth(2)
@@ -107,10 +131,7 @@ struct Index {
       .columnsTemplate("1fr 1fr")
       .columnsGap(10)
       .rowsGap(10)
-      .height(250)
-      .onScrollIndex((first: number) => {
-        return;
-      });
+      .height(250);
 
       // bottom navigation bar
       Flex({justifyContent: FlexAlign.SpaceAround, direction: FlexDirection.Row}) {
