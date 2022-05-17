@@ -55,10 +55,7 @@
           "type": "pageAbility"
         },
         "pages": [
-          "pages/index",
-          "pages/login",
-          "pages/register",
-          "pages/shop/shop"
+          "pages/index"
         ],
         "name": ".MainAbility",
         "window": {
