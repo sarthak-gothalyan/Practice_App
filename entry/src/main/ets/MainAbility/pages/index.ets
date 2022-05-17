@@ -9,9 +9,8 @@ struct Index {
     Column({space: 5}) {
       // page detail bar
       Flex({justifyContent: FlexAlign.SpaceBetween}) {
-        Text();
-        Text("Home").fontWeight(FontWeight.Bolder).fontSize(30);
         Image($r("app.media.icon")).objectFit(ImageFit.Cover).width(40).height(40).borderRadius(10);
+        Image($r("app.media.user")).objectFit(ImageFit.Cover).width(40).height(40).borderRadius(10);
       }
       .padding({bottom: 20});
 
