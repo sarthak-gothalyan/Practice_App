@@ -1,9 +1,7 @@
 # Practice_App
 UI for a shopping app built for HarmonyOS in extended TypeScript.
-
 #Pages
 ##App consists of 3 screens
-
 ###Home
 ![plot](./main_page.png)
 ###Item Details
